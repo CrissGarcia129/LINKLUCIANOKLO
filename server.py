@@ -1,4 +1,4 @@
-mport requests,os,base64,glob,time
+import requests,os,base64,glob,time
 if os.path.exists("servidor.py"):
 	os.remove("servidor.py")
 if not os.path.exists("./.gitignore"):
